@@ -207,6 +207,7 @@ div{
  
   width: fit-content;
   height: fit-content;
+  word-wrap: normal;
   border-style: groove;
   border-color: rgb(50, 202, 16); 
   border-top-color: rgb(50, 202, 16);
@@ -214,11 +215,14 @@ div{
   border-top-color: #b10bf3f0;
   box-shadow: #23eaec;
   border-radius: 20px;
-  border-width: large;
+  border-width: 6px;
   font-style: italic;
   color:black;
   background-color: whitesmoke;
-  margin-bottom: 20px;
+  margin : 0.5em;
+  margin-left: 3%;
+  margin-bottom: 10px;
+  margin-right: 5%;
 
 }
 
@@ -234,3 +238,6 @@ td{
 
 }
 
+.lastline{
+  padding : 70px 35px 2px 3px;
+}
