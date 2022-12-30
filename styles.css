@@ -12,6 +12,7 @@
   text-align: right;
   margin-right: 30px;
 
+
  }
 
  p.info::first-letter {          /* psudo element selector */
@@ -24,10 +25,12 @@
 
 
  #icon{
-  width: 30px;
+  width: 80px;
   cursor: pointer;
   position: fixed;
-  right: 50px;
+  right: 25px;
+  margin-top: -140px;
+  
  }
 
 
@@ -134,7 +137,8 @@ p.info{
 
 
 li{
-color:#05ecee;
+color:#49ffc6;
+font-weight: bolder;
 }
 td{
  color:#01ddfb;
@@ -193,7 +197,7 @@ mark {
 
   font-weight: 350;
    text-shadow: 2px 1px cyan,.5px 1px black;
-  
+  margin-left: 2px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -203,10 +207,29 @@ div{
   width: fit-content;
   height: fit-content;
   border-style: groove;
-  border-color: #fbff00; 
-  border-radius: 6px;
-  border-width: medium;
+  border-color: rgb(50, 202, 16); 
+  border-top-color: rgb(50, 202, 16);
+  border-bottom-color: rgb(225, 65, 118);
+  border-top-color: #b10bf3f0;
+  box-shadow: #23eaec;
+  border-radius: 20px;
+  border-width: large;
   font-style: italic;
-  color:pink;
+  color:black;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
 
 }
+
+img{
+
+   margin-left: 20px;
+
+}
+
+td{
+ font-weight: 800;
+ font-size: larger;
+
+}
+
