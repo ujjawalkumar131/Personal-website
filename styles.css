@@ -1,4 +1,10 @@
-
+*{
+  
+  box-sizing: border-box;
+}
+  
+  
+  
   body{
     background-color:#254b68; 
   }
@@ -176,7 +182,7 @@ color:hsl(311, 100%, 73%);
 }
 table {
 
- tab-size: border= 8;
+ tab-size: border= 9;
  display: table;
  border-collapse: separate;
  border-width: thick;
@@ -207,6 +213,8 @@ div{
  
   width: fit-content;
   height: fit-content;
+  min-width: auto;
+  min-height: auto;
   word-wrap: normal;
   border-style: groove;
   border-color: rgb(50, 202, 16); 
@@ -229,6 +237,9 @@ div{
 img{
 
    margin-left: 20px;
+   filter:brightness(110%);
+   filter:contrast(125%);
+   filter:drop-shadow(1px 0px 10px black);
 
 }
 
@@ -240,4 +251,38 @@ td{
 
 .lastline{
   padding : 70px 35px 2px 3px;
+}
+
+@media(max-width: 480px)
+{
+ div{
+   
+   width:400px;
+   height: 200px;
+   background-color: white;
+   margin: 40px;
+   
+  
+
+ }
+ h4.lastline {
+  font-size: 28px;
+  font-style: italic;
+  color: black;
+  text-align: justify;
+  padding-bottom: 70px;
+  padding-right: 40px;
+
+
+
+
+  
+  
+  
+ }
+
+
+
+
+
 }
